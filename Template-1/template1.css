@@ -1,0 +1,236 @@
+.nav{
+    background-color: black;
+    color: white;
+    height: 41px;
+    margin: -16px 0px 0px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.pictext{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 675px;
+    font-size: 50px;
+}
+.pt{
+    color: white;
+    position: absolute;
+    bottom: -29px;
+    left: 692px;
+    font-size: 30px;
+}  
+.ul{
+    margin-left: 25px;
+    display: flex;
+}
+.li{
+    display: inline;
+    padding: 12px;
+}
+.li:hover{
+    display: flex;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    cursor: pointer;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    text-decoration: none;
+    color: black;
+}
+#searchicon{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 30px;
+    padding: 5px;
+}
+#searchicon:hover{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 30px;
+    padding: 5px;
+    background-color: lightcoral;
+}
+.img1{
+    width: 100%;
+    height: 20%;
+}
+.h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+.span{
+    margin-left: 725px;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif
+}
+.div{
+    width: 755px;
+    text-align: justify;
+    margin-left: 25%;
+}
+.div2{
+    position: relative;
+    right: 127px;
+}
+.img2{
+    margin-left: 77px;
+    width: 10%;
+}
+.div3{
+    background-color: black;
+    margin-top: 100px;
+    height: 770px;
+    width: 100%;
+    float: left;
+    
+}
+.hh{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pp{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    opacity: 0.7;
+}
+.table{
+    width: 642px;
+    background-color: white;
+    position: relative;
+    top: 8px;
+    left: 498px;
+}
+.dd{
+    position: relative;
+    left: 487px;
+    padding-left: 12px;
+    width: 202px;
+    height: 240px;
+}
+.tasweer{
+    width: 202px;
+    height: 240px; 
+}
+.d{
+    background-color: white;
+    padding: 4px 0 0 16px;
+    position: relative;
+    bottom: 4px;
+    height: 175px;
+}
+.tickets{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: 4px;
+}
+.tickets:hover{
+    background-color: lightgray;
+    color: black;
+    padding: 8px;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+.dttt{
+    position: absolute;
+    top: 0;
+    left: 231px;
+}
+.dt{
+    position: absolute;
+    top: 0;
+    left: 218px;
+}
+.dny{
+    display: inline;
+}
+.contact{
+    FONT-SIZE: 50px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: -1;
+}
+.ppp{
+    opacity: 0.7;
+    text-align: center;
+}
+.icon2{
+    font-size: 30px;
+}
+.chicago{
+    font-size: 20px;
+    padding-left: 350px;
+}
+.sss{
+    position: relative;
+    left: 873px;
+    bottom: 69px;
+}
+.inp1{
+    height: 27px;
+    width: 143px;
+}
+.inp2{
+    position: relative;
+    top: 5px;
+    height: 27px;
+    width: 298px;
+}
+.zoo{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 233px;
+    margin-top: 15px;
+}
+.zoo:hover{
+    font-size: 20px;
+    background-color: gray;
+    color: black;
+    margin-left: 233px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.lastimg{
+    position: relative;
+    right: 8px;
+    width: 1583px;
+}
+#iconlast{
+    font-size: 23px;
+    position: relative;
+    left: 2px;
+    color: gray;
+}
+#iconlast:hover{
+    font-size: 23px;
+    position: relative;
+    left: 2px;
+    color: gray;
+    opacity: 0.5;
+}
+.anas{
+    position: relative;
+    top: 94px;
+}

@@ -1,0 +1,70 @@
+body{
+    background-size: cover;
+    background-image: url(Assets/bgimage.jpg);
+    font-family: sans-serif;
+    height: 773px;
+}
+.main{
+    background-color: white;
+    padding: 20px 0;
+    margin: 0 500px;
+    position: relative;
+    top: 100px;
+}
+.login{
+    text-align: center;
+}
+.info{
+    text-align: center;
+    color: gray;
+}
+.email{
+    font-size: 18px;
+    font-weight: 600;
+}
+form{
+    margin: 40px 40px 0;
+}
+.inp1{
+    margin-top: 18px;
+    padding: 8px 0px 8px 10px;
+    width: 97%;
+    height: 20px;
+}
+.checkbox{
+    margin-top: 24px;
+}
+.forgot{
+    font-size: 13px;
+    text-decoration: none;
+    float: right;
+    color: #fd8f5f;
+    margin-top: 24px;
+}
+.signup{
+    display: inline-block;
+    margin-top: 100px;
+    color: gray;
+    font-size: 13px;
+}
+.signupanchor{
+    text-decoration: none;
+    color: #fd8f5f;
+}
+button{
+    position: relative;
+    left: 121px;
+    padding: 23px 55px;
+    color: white;
+    background-color: #fd8f5f;
+    border: 1px solid #fd8f5f;
+}
+button:hover{
+    cursor: pointer;
+    position: relative;
+    left: 121px;
+    padding: 23px 55px;
+    color: white;
+    background-color: #fd8f5f;
+    border: 1px solid #fd8f5f;
+}

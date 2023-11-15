@@ -1,0 +1,174 @@
+body{
+    font-family: "Barlow",sans-serif;
+}
+.nav{
+    padding-left: 8%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    list-style-type: none;
+    font-size: 120%;
+}
+.navmenu{
+    padding-left: 57px;
+}
+.anchornav{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+.anchornav:hover{
+    cursor: pointer;
+    color: #ff0087;
+}
+.btnrgstr{
+    margin-left: 10%;
+    height: 50px;
+    width: 10%;
+    font-size: 111%;
+    color: white;
+    background: #ff0087;
+    border: #ff0087;
+    transition: border 1s, background-color 1s;
+}
+.btnlogin{
+    height: 50px;
+    width: 10%;
+    font-size: 111%;
+    color: #ff0087;
+    background: white;
+    border: 1px solid #ff0087;
+    margin-left: 2%;
+    transition: border 1s, background-color 1s, color 1s;
+}
+.btnrgstr:hover{
+    border: #b2005f;
+    background-color: #b2005f;
+    cursor: pointer;
+}
+.btnlogin:hover{
+    border: #b2005f;
+    background-color: #b2005f;
+    cursor: pointer;
+    color: white;
+}
+.header{
+    background-image: url(Assets/navbg.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    width: 1483px;
+    padding-left: 100px;
+}
+.headertext{
+    margin-top: 8%;
+    padding-right: 824px;
+    color: #242b5e;
+    font-size: 500%;
+}
+.headerinput{
+    width: 17%;
+    font-size: 107%;
+    border: 1px;
+    padding: 15px 13px 14px;
+}
+.headerselect{
+    position: relative;
+    right: 1%;
+    width: 17%;
+    font-size: 107%;
+    border: 1px;
+    padding: 14px 13px;
+}
+.headerselect{
+    cursor: pointer;
+    color: gray; 
+}
+.headerbtn{
+    cursor: pointer;
+    height: 50px;
+    width: 10%;
+    font-size: 111%;
+    color: white;
+    background: #ff0087;
+    border: #ff0087;
+    position: relative;
+    right: 19px;
+}
+.categories{
+    margin-top: 45%;
+    padding: 0 128px;
+}
+.categories1{
+    text-align: center;
+}
+.featured{
+    color: #ff0087;
+    font-size: 14px;
+}
+.categoriesheading{
+    font-size: 287%;
+    color: #242b5e;
+}
+.cards{
+    display: flex;    
+    justify-content: space-evenly;
+}
+.cardss{    
+    margin-top: 3%;
+    display: flex;    
+    justify-content: space-evenly;
+}
+.card1{
+    width: 14%;
+    height: 182px;
+    padding: 35px;
+    text-align: center;
+    border: 1px solid #b9b9b947;
+    transition: color 0.5s, box-shadow 0.5s;
+}
+.card1:hover #cardicon1{
+    color: #ff0087;
+}
+.card1:hover{
+    color: #ff0087;
+    box-shadow: 0px 6px 17px 0px rgb(151 151 151 / 35%);
+}
+#cardicon1{
+    font-size: 500%;
+    color: #242b5e;
+    transition: color 0.5s;
+}
+.card1text{
+    display: inline-block;
+    margin-top: 11%;
+    font-size: 116%;
+}
+.card1text:hover{
+    cursor: pointer;
+}
+.card1num{
+    color: #ff0087;
+    display: inline-block;
+    margin-top: 6%;
+}
+.all{
+    margin: 80px 0 0 524px;
+    font-size: 22px;
+    padding: 13px 20px;
+    background-color: white;
+    border: 1px solid #242b5e;
+    transition: background-color 0.5s, color 0.5s;
+}
+.all:hover{
+    cursor: pointer;
+    background-color: #242b5e;
+    color: white;
+}
+.cv{
+    background-image: url(https://preview.colorlib.com/theme/jobfinderportal/assets/img/gallery/cv_bg.jpg.webp);
+    position: absolute;
+    left: 0;
+    width: 100%;
+}

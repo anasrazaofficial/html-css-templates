@@ -1,0 +1,452 @@
+.navbar{
+    position: sticky;
+    background-color: black;
+    transform: translate(-8px, -8px);
+    width: 1583px;
+    height: 50px;
+}
+#menu{
+    color: white;
+    font-size: 33px;
+    margin: 7px 0 0 17px;
+    visibility: hidden;
+}
+.navlogo{
+    color: white;
+    float: right;
+    font-family: 'Akaya Telivigala', cursive;
+    display: inline-block;
+    margin: 7px 17px 0 0;
+    font-size: 23px
+}
+.sidebar{
+    transform: translate(-8px, -8px);
+    width: 338px;
+    position: fixed;
+    display: inline-block;
+    height: 706px;
+}
+.div1{
+    margin: 20px 16px 12px;
+}
+.top1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.man{
+    width: 20%;
+    border-radius: 50%;
+}
+.sp1{
+    font-size: 22px;
+    position: relative;
+    bottom: 38px;
+    left: 19px;
+}
+.sp2{
+    font-weight: bolder;
+}
+.icons{
+    position: relative;
+    left: 89px;
+    bottom: 21px;
+    display: inline-block;
+}
+#icon{
+    padding: 9px 11px;
+}
+#icon:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 9px 11px;
+}
+.hr{
+    width: 306px;
+    height: 1px;
+    background-color: #cbc9c9;
+    margin-top: 26px;
+    position: absolute;
+    left: -11px;
+}
+.div2{
+    padding-left: 25px;
+    font-size: 25px;
+}
+.div3{
+    background-color: #2196f3;
+    color: white;
+    padding-left: 25px;
+}
+.div3:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    color: black;
+    padding-left: 25px;
+}
+.div4{
+    padding-left: 25px;
+}
+.div4:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    padding-left: 25px;
+}
+.sidebardiv2{
+    font-size: 18px;
+    margin-top: 62px;
+    line-height: 2;
+}
+.div5{
+    display: inline-block;
+    width: 1258px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50px;
+    left: 295px;
+    padding: 0 15px;
+}
+.div6{
+    display: flex;
+}
+.div00{
+    width: 270px;
+}
+.div7{
+    background-color: #f44336;
+    padding: 31px 20px;
+    margin-top: 26px;
+}
+.div8{
+    background-color: #2196f3;
+    padding: 31px 20px;
+    margin: 26px 15px 0;
+}
+.div9{
+    background-color: #009688;
+    padding: 31px 20px;
+    margin: 26px 15px 0 0;
+}
+.div10{
+    background-color: #ff9800;
+    padding: 31px 20px;
+    margin: 26px 0 0 0;
+}
+.sp3{
+    font-size: 22px;
+    margin-left: 80px;
+    display: inline-block;
+    color: white;
+}
+.div11{
+    display: flex;
+    margin-top: 30px;
+}
+.sp4{
+    font-size: 20px;
+}
+.imgmap{
+    width: 464px;
+    margin-top: 15px;
+}
+.div13{
+    margin-left: 35px;
+}
+.table1{
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+.table1 > tr{
+    height: 10px;
+    font-size: 18px;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+td{
+    padding: 11px;
+}
+.td1{
+    width: 90px;
+}
+.td2{
+    width: 539px;
+}
+#icontable1{
+    font-size: 25px;
+    color: #2196f3;
+    margin-left: 20px;
+}
+.td3{
+    position: relative;
+    right: 70px;
+}
+#icontable2{
+    font-size: 25px;
+    color: #f44336;
+    margin-left: 20px;
+}
+#icontable3{
+    font-size: 25px;
+    color: #ff9800;
+    margin-left: 20px;
+}
+#icontable4{
+    font-size: 25px;
+    color: #009688;
+    margin-left: 20px;
+}
+.div14{
+    margin-top: 30px;
+}
+.div15{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.div16{
+    margin-top: 15px;
+    display: flex;
+}
+.div17{
+    width: 25%;
+    height: 32px;
+    background-color: #009688;
+}
+.div18{
+    width: 75%;
+    height: 32px;
+    background-color: #a0a0a0;
+}
+.div19{
+    width: 50%;
+    height: 32px;
+    background-color: #ff9800;
+}
+.div20{
+    width: 50%;
+    height: 32px;
+    background-color: #a0a0a0;
+}
+.div21{
+    width: 75%;
+    height: 32px;
+    background-color: #f44336;
+}
+.div22{
+    width: 25%;
+    height: 32px;
+    background-color: #a0a0a0;
+}
+.sp5{
+    position: relative;
+    top: 21%;
+    left: 43%;
+    color: white;
+}
+.table2{
+    margin-top: 15px;
+    width: 100%;
+    border: 2px inset #e3e3e3;
+    border-collapse: collapse;
+}
+.tr2:hover{
+    background-color: #b6b6b6;
+}
+.sp6{
+    color: white;
+    background-color: #616161;
+    padding: 15px 14px;
+    position: relative;
+    top: 40px;
+}
+.sp6:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #ccc;
+    padding: 15px 14px;
+    position: relative;
+    top: 40px;
+}
+.div23{
+    margin-top: 88px;
+}
+.div24{
+    margin-top: 15px;
+    box-shadow: 0px 7px 13px 0px rgba(0,0,0,0.75);
+}
+.image1{
+    width: 55px;
+    border-radius: 50%;
+}
+.div25{
+    padding: 10px 60px 0;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+.sp7{
+    position: relative;
+    bottom: 18px;
+    left: 20px;
+    font-size: 26px;
+}
+.image2{
+    width: 130px;
+    border-radius: 50%;
+}
+.div26{
+    margin-top: 15px;
+    display: flex;
+}
+.sp8{
+    font-size: 25px;
+}
+.sp9{
+    color: gray;
+}
+.div27{
+    margin: 20px 0 0 120px;
+}
+.div28{
+    margin-top: 28px;
+}
+.div29{
+    margin-top: 60px;
+    display: flex;
+}
+.div30{
+    display: flex;
+    margin-top: 30px;
+    background-color: #616161;
+    width: 1288px;
+    position: relative;
+    right: 15px;
+    padding: 10px 0 20px 0;
+}
+.ul1{
+    width: 380px;
+    list-style-type: none;
+    line-height: 3;
+}
+.li1{
+    color: white;
+    border-bottom: 11px solid #009688;
+}
+.li2{
+    color: white;
+}
+.li3{
+    color: white;
+    border-bottom: 11px solid #ff9800;
+}
+.li4{
+    color: white;
+    border-bottom: 11px solid #f44336;
+}
+.footer{
+    margin: 30px 0;
+}
+.spfooter{
+    font-size: 20px;
+}
+.last{
+    color: black;
+}
+.hr1{
+    visibility: hidden;
+}
+
+
+
+
+@media screen and (max-width: 415px){
+    .navbar{
+        width: 414px;
+    }
+    #menu{
+        visibility: visible;
+    }
+    /* #menu:hover .sidebar{
+        visibility: visible;
+    } */
+    .sidebar{
+        visibility: hidden;
+    }
+    .div5 {
+        width: 384px;
+        left: 0;
+    }
+    .div6{
+        display: block;
+    }
+    .div00{
+        width: 343px;
+    }
+    .div8{
+        margin: 26px 0 0;
+    }
+    .div9{
+        margin: 26px 0 0 0;
+    }
+    .div11{
+        display: block;
+    }
+    .imgmap{
+        width: 383px;
+    }
+    .table1{
+        position: relative;
+        right: 34px;
+    }
+    .td3{
+        right: 0;
+    }
+    .image2{
+        width: 80px;
+        height: 80px;
+    }
+    .sp8 {
+        font-size: 20px;
+    }
+    .sp9{
+        font-size: 13px;
+    }
+    .div28 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .div27 {
+        margin: 5px 0 0 5px;
+    }
+    .div29 {
+        margin-top: 217px;
+        position: relative;
+        bottom: 190px;
+    }
+    .div30{
+        width: 414px;
+        display: block;
+        bottom: 500px;
+        margin-top: 342px;
+    }
+    .ul1{
+        padding: 0 15px 0;
+    }
+    .hr1{
+        visibility: visible;
+        border: 1px solid #f1f1f117;
+    }
+    .spfooter {
+        font-size: 17px;
+    }
+    .sp00{
+        font-size: 11px;
+        display: inline-block;
+        position: relative;
+        bottom: 25px;
+    }
+    .footer {
+        position: relative;
+        bottom: 540px;
+        margin: 74px 0 50px;
+    }
+}
